@@ -1,6 +1,7 @@
 import java.util.Objects;
 
 public class PalindromeNumber {
+    //This is the leetcode question
     public boolean isPalindrome(int x){
         if(x>0){
             char[] characters = String.valueOf(x).toCharArray();
