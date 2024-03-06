@@ -3,7 +3,7 @@ import java.util.Objects;
 public class PalindromeNumber {
     //This is the leetcode question
     public boolean isPalindrome(int x){
-        if(x>0){
+        if(x>=0){
             char[] characters = String.valueOf(x).toCharArray();
             StringBuilder reverseChar = new StringBuilder(String.valueOf(x));
             char [] reverseCharacter = reverseChar.reverse().toString().toCharArray();
